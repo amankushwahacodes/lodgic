@@ -20,14 +20,22 @@ export function useBookings() {
 
   const sortBy = {field, direction}
 
+  // Pagination
+  const page = !searchParams.get("page")
+    ? 1
+    : Number(searchParams.get("page"));
+
   const {
     isLoading,
-    data: bookings,
+    data: response = {},
     error,
   } = useQuery({
-    queryKey: ["bookings", filter,sortBy],
-    queryFn: () => getBookings({ filter , sortBy }),
+    queryKey: ["bookings", filter,sortBy, page],
+    queryFn: () => getBookings({ filter , sortBy , page }),
   });
 
-  return { isLoading, error, bookings };
+  const bookings = response.data ?? [];
+  const count = response.count ?? 0;    
+
+  return { isLoading, error, bookings, count };
 }
