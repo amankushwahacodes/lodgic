@@ -89,6 +89,11 @@ It enables hotel staff to manage reservations, cabins, check-ins, users, and ope
 - Managed asynchronous data fetching and caching with React Query
 - Developed a theme-aware UI with full dark mode support
 
+## Credentials (Use this to login into the application)
+- **Email:** aman@example.com
+- **Password:** pass1234
+  
+
 ## Author
 
 <b>👤 Aman Kushwaha</b>
