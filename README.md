@@ -1,8 +1,8 @@
 <div align="center">
 
-  <img src="./public/lodgic-dark.png" alt="logo" width="150" height="auto">
+  <img src="./public/lodgic-dark.png" alt="logo" width="200" height="auto">
 
-  <h1>Lodgic - Booking & Operations System</h1>
+  <h2>Lodgic - Booking & Operations System</h2>
 
   <h3>
     <a href="https://lodgic-app.netlify.app/">
@@ -60,17 +60,17 @@ It enables hotel staff to manage reservations, cabins, check-ins, users, and ope
 
 ## Core Features
 
-**Cabin Management**
-- Create, update, and delete cabin records with real-time availability updates
+- **Cabin Management**
+  - Create, update, and delete cabin records with real-time availability updates
 
-**Booking Management**
-- Manage reservations, check guests in and out, and update booking statuses
+-**Booking Management**
+  - Manage reservations, check guests in and out, and update booking statuses
 
-**Real-time Sync**
-- Cabins and bookings update instantly across the app using Supabase
+- **Real-time Sync**
+  - Cabins and bookings update instantly across the app using Supabase
 
-**Dark Mode**
-- Fully supported dark mode for improved usability and accessibility
+- **Dark Mode**
+  - Fully supported dark mode for improved usability and accessibility
 
 ## Tech Stack
 
